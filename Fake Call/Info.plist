@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>GADApplicationIdentifier</key>
+	<string>ca-app-pub-3940256099942544~1458002511</string>
+	<key>GADIsAdManagerApp</key>
+	<true/>
+	<key>UIAppFonts</key>
+	<array>
+		<string>PlayfairDisplay-Regular.ttf</string>
+		<string>PlayfairDisplay-Medium.ttf</string>
+		<string>PlayfairDisplay-SemiBold.ttf</string>
+		<string>PlayfairDisplay-Bold.ttf</string>
+		<string>PlayfairDisplay-Black.ttf</string>
+		<string>SFMono-Light.otf</string>
+		<string>SFMono-Medium.otf</string>
+		<string>SFMono-Semibold.otf</string>
+		<string>SFMono-Bold.otf</string>
+		<string>SFMono-Heavy.otf</string>
+		<string>SF-Pro-Rounded-Thin.otf</string>
+		<string>SF-Pro-Rounded-Regular.otf</string>
+		<string>SF-Pro-Rounded-Semibold.otf</string>
+		<string>SF-Pro-Rounded-Bold.otf</string>
+		<string>SF-Pro-Rounded-Heavy.otf</string>
+		<string>SF-Pro-Text-Thin.otf</string>
+		<string>SF-Pro-Text-Medium.otf</string>
+		<string>SF-Pro-Text-Semibold.otf</string>
+		<string>SF-Pro-Text-Bold.otf</string>
+		<string>SpaceMono-Bold.ttf</string>
+		<string>SF-Pro-Text-Heavy.otf</string>
+		<string>FontsFree-Net-SF-Pro-Rounded-Heavy.ttf</string>
+	</array>
+	<key>UIApplicationSceneManifest</key>
+	<dict>
+		<key>NSAppTransportSecurity</key>
+		<dict>
+			<key>NSAllowsArbitraryLoads</key>
+			<true/>
+		</dict>
+		<key>UIApplicationSupportsMultipleScenes</key>
+		<false/>
+		<key>UISceneConfigurations</key>
+		<dict>
+			<key>UIWindowSceneSessionRoleApplication</key>
+			<array>
+				<dict>
+					<key>UISceneConfigurationName</key>
+					<string>Default Configuration</string>
+					<key>UISceneDelegateClassName</key>
+					<string>$(PRODUCT_MODULE_NAME).SceneDelegate</string>
+					<key>UISceneStoryboardFile</key>
+					<string>Main</string>
+				</dict>
+			</array>
+		</dict>
+	</dict>
+</dict>
+</plist>

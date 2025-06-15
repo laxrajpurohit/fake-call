@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="21507" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="01J-lp-oVM">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21505"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="EHf-IW-A2E">
+            <objects>
+                <viewController id="01J-lp-oVM" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Ze5-6b-2t3">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Splash screen Bg" translatesAutoresizingMaskIntoConstraints="NO" id="ZFr-zq-jRo">
+                                <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="logo" translatesAutoresizingMaskIntoConstraints="NO" id="5OQ-R6-73H">
+                                <rect key="frame" x="135.66666666666666" y="279.66666666666669" width="121.99999999999997" height="122"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="122" id="oyG-ZN-h2U">
+                                        <variation key="heightClass=regular-widthClass=regular" constant="182"/>
+                                    </constraint>
+                                    <constraint firstAttribute="height" constant="122" id="ulw-qq-YN5">
+                                        <variation key="heightClass=regular-widthClass=regular" constant="183"/>
+                                    </constraint>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Prank Call" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="DM0-9O-nFZ">
+                                <rect key="frame" x="119.33333333333333" y="454.66666666666669" width="154.66666666666669" height="40.666666666666686"/>
+                                <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="34"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                                <variation key="heightClass=regular-widthClass=regular">
+                                    <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="51"/>
+                                </variation>
+                            </label>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="5OQ-R6-73H" firstAttribute="centerX" secondItem="ZFr-zq-jRo" secondAttribute="centerX" id="0ex-vb-CBD"/>
+                            <constraint firstAttribute="bottom" secondItem="ZFr-zq-jRo" secondAttribute="bottom" id="Sg1-ay-QW5"/>
+                            <constraint firstItem="5OQ-R6-73H" firstAttribute="centerX" secondItem="DM0-9O-nFZ" secondAttribute="centerX" id="ZLD-t3-QcZ"/>
+                            <constraint firstItem="ZFr-zq-jRo" firstAttribute="leading" secondItem="Ze5-6b-2t3" secondAttribute="leading" id="ZcH-KM-qOr"/>
+                            <constraint firstItem="5OQ-R6-73H" firstAttribute="centerY" secondItem="ZFr-zq-jRo" secondAttribute="centerY" multiplier="0.8" id="aN5-MU-VpY"/>
+                            <constraint firstItem="ZFr-zq-jRo" firstAttribute="top" secondItem="Ze5-6b-2t3" secondAttribute="top" id="kye-gx-Hyv"/>
+                            <constraint firstItem="DM0-9O-nFZ" firstAttribute="top" secondItem="5OQ-R6-73H" secondAttribute="bottom" constant="53" id="nWo-TQ-UP5"/>
+                            <constraint firstItem="ZFr-zq-jRo" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="pop-Ur-aKc"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="52.671755725190835" y="374.64788732394368"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="Splash screen Bg" width="375" height="812"/>
+        <image name="logo" width="1024" height="1024"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

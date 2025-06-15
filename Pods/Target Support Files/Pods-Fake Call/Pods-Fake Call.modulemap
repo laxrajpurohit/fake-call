@@ -1,0 +1,6 @@
+framework module Pods_Fake_Call {
+  umbrella header "Pods-Fake Call-umbrella.h"
+
+  export *
+  module * { export * }
+}

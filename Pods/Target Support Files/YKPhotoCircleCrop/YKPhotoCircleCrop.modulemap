@@ -1,0 +1,6 @@
+framework module YKPhotoCircleCrop {
+  umbrella header "YKPhotoCircleCrop-umbrella.h"
+
+  export *
+  module * { export * }
+}
